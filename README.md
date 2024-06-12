@@ -25,11 +25,11 @@ You need a C++ compiler installed on your machine. You can use GCC, Clang, or an
    ```
 2. Navigate to the project directory:
    ```sh
-   cd console-calculator
+   cd calculator
    ```
 3. Compile the program:
    ```sh
-   g++ -o calculator calculator.cpp
+   g++ -o calculator main.cpp
    ```
 4. Run the program:
    ```sh

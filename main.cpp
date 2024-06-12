@@ -15,6 +15,7 @@ int main(){
     cout<<"2. Substraction"<<endl;
     cout<<"3. Multiplication"<<endl;
     cout<<"4. Division"<<endl;
+    cout<<"Enter your choice: ";
     cin>>operation;
     if(operation==4){
         cout<<"Enter Second Number except 0: ";
