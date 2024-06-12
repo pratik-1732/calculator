@@ -15,6 +15,11 @@ int main(){
     if(operation=="/"){
         cout<<"Enter Second Number except 0: ";
         cin>>num2;
+        if(num2==0){
+            cout<<"You entered 0 which is invalid."<<endl;
+            cout<<"Enter Number Except 0: ";
+            cin>>num2;
+        }
     }
     else{
         cout<<"Enter Second Number: ";
@@ -24,16 +29,16 @@ int main(){
 
     // maths for operation 
     if(operation =="+"){
-        cout<<"Answer Of Problem "<<num1<<" + "<<num2<<" is"<<num1+num2<<"."<<endl;
+        cout<<"Answer Of Problem ("<<num1<<" + "<<num2<<") is = "<<num1+num2<<"."<<endl;
     }
     else if(operation =="-"){
-        cout<<"Answer Of Problem "<<num1<<" - "<<num2<<" is"<<num1-num2<<"."<<endl;
+        cout<<"Answer Of Problem ("<<num1<<" - "<<num2<<") is = "<<num1-num2<<"."<<endl;
     }
     else if(operation =="*"){
-        cout<<"Answer Of Problem "<<num1<<" * "<<num2<<" is"<<num1*num2<<"."<<endl;
+        cout<<"Answer Of Problem ("<<num1<<" * "<<num2<<") is = "<<num1*num2<<"."<<endl;
     }
     else if(operation =="/"){
-        cout<<"Answer Of Problem "<<num1<<" / "<<num2<<" is"<<num1/num2<<"."<<endl;
+        cout<<"Answer Of Problem ("<<num1<<" / "<<num2<<") is = "<<num1/num2<<"."<<endl;
     }
     else cout<<"You have entered wrong operation."<<endl;
 
